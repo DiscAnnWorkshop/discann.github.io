@@ -26,10 +26,10 @@ table, th, td, img {
 /*------------------------------ HEADER ------------------------------*/
 
 #header {
-    background: linear-gradient(rgba(25,61,255), rgba(102,126,255));
+    background: linear-gradient(#002e78, #0042ab); /*rgba(25,61,255) rgba(102,126,255)*/
     /*linear-gradient(rgba(222,119,0,0.9), rgba(255,215,0, 1));*/
     border-bottom: 2px solid #fff;
-    color: #0099FF; /*#fff;*/
+    color: #fff; /*#0099FF; /**/
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -39,6 +39,7 @@ table, th, td, img {
     min-width: 1000px;  /* needed to avoid nasty overlapping lines */
     font-family: Roboto, Helvetica, Arial, sans-serif;
     font-size: 48px;
+    color: #fff; /* #fff;*/
     font-weight: bold;
     padding-left: 40px;
     padding-bottom: 5px;
@@ -47,12 +48,13 @@ table, th, td, img {
 #header .body {
     font-family: Roboto, Helvetica, Arial, sans-serif;
     font-size: 28px;
+    color: #fff; /* #fff;*/
     padding-left: 40px;
     padding-bottom: 0px;
 }
 
 #subheader {
-    background-color: #FF9933; /*#444;*/
+    background-color: #f1af14; /*#Ff9933 #444;*/
     Border-bottom: 5px solid #fff; /*#e6e6e6;*/
     color: #fff;
     height: 30px;
@@ -88,13 +90,13 @@ table, th, td, img {
 
 #navigation li a {
     color: #eee;
-    font-size: 24px;
+    Font-size: 24px;
     line-height: 30px;
     text-decoration: none;
 }
 
 #navigation li a:hover {
-    color: #f1c40f;
+    color: #c66f0c;
 }
 
 
@@ -108,8 +110,8 @@ table, th, td, img {
 }
 
 h1, h2, h3 {
-    color: rgb(25,61,255); /*rgb(162, 41, 0);*/
-    color: rgb(162, 41, 0, );
+    color: #003892; /* 002e78 rgb(25,61,255) rgb(162, 41, 0);*/
+    color: #003892; /* rgb(162, 41, 0, ) */
     font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;  /*"Slabo 27px";*/
 }
 
@@ -149,7 +151,7 @@ a.paper {
     text-decoration: None;
 }
 
-a:hover { color: #39646d; }
+a:hover { color: #de7d0e; } /* #39646d */
 a:visited { color: #39646d; }
 
 table.dates {
@@ -229,12 +231,12 @@ li {
 
 #footer {
     /*law17:  color matches color from the logo */
-    background: linear-gradient(rgba(25,61,255), rgba(102,126,255));
-    /*background: linear-gradient(rgba(255,215,0, 1), rgba(255,215,0, 1));*/
+    background: linear-gradient(#003892, #0042ab); /* #002e78, */
+    /*background: linear-gradient(rgba(25,61,255), rgba(102,126,255)); linear-gradient(rgba(255,215,0, 1), rgba(255,215,0, 1));*/
     xborder-top: 4px solid #999;
     border-top: 2px solid #fff ; /*rgba(255,215,0, 1);*/
     Border-bottom: 4px solid #fff;
-    xborder-bottom: 4px solid rgba(255,215,0, 1);
+    Xborder-bottom: 4px solid rgba(255,215,0, 1);
     padding: 6px 0 0;
 }
 
@@ -247,12 +249,12 @@ li {
     font-size: 18px;
     font-weight: bold;
     line-height: 18px;
-    color: #000000; /* #fff;*/
+    color: #fff; /* #fff;*/
     font-style: normal;
     padding-left: 10px;
 }
 
 #footer p a {
-    color: #000000; /* #fff;*/
+    color: #fff; /* #fff;*/
     font-weight: bold;
 }
