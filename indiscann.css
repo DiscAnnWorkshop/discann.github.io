@@ -39,6 +39,7 @@ table, th, td, img {
     min-width: 1000px;  /* needed to avoid nasty overlapping lines */
     font-family: Roboto, Helvetica, Arial, sans-serif;
     font-size: 48px;
+    line-height: 52px;
     color: #fff; /* #fff;*/
     font-weight: bold;
     padding-left: 40px;
