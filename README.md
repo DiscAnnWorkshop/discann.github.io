@@ -1,2 +1,2 @@
-# kdekuthy.github.io
+# discannworkshop.github.io
 Integrating Perspectives on Discourse Annotation
